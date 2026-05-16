@@ -38,7 +38,7 @@ const winPatterns = [
 [3, 4,5],
 [6,7,8]
 ];
-let winner=()=>{
+const winner=()=>{
    for(let pattern of winPatterns){
     let p1=boxes[pattern[0]].innerText;
     let p2=boxes[pattern[1]].innerText;
